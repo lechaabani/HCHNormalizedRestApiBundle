@@ -1,6 +1,3 @@
-# HCHNormalizedRestApiBundle
-
-
 HCHNormalizedRestApiBundle
 =========================
 
