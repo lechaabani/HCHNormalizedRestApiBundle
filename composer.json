@@ -16,7 +16,8 @@
         "php": ">=5.3.2",
         "symfony/framework-bundle": "~2.0",
         "symfony/serializer": "~2.0",
-        "symfony/console": "~2.0"
+        "symfony/console": "~2.0",
+        "hch/normalizedrestapi-bundle": "dev-master"
     },
     "require-dev": { 
     },
