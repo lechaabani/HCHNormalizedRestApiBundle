@@ -39,7 +39,7 @@ class CreateErrorCodeCommand extends Command {
 
   protected function execute(InputInterface $input, OutputInterface $output) {
 
-    $content = "; this is an INI file \n [parameters] \n \n ;code 500 \n 501 = An intenal error has occured";
+    $content = "; this is an INI file \n [parameters] \n \n ;400 \n 4001 = No product found \n \n ;500 \n 5001 = An intenal error has occured";
     $fp = fopen(__DIR__ . '../../../../../../../app/config/errors_code.ini', "wb");
     fwrite($fp, $content);
     fclose($fp);

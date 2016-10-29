@@ -14,8 +14,8 @@ The bundle can be used as simply as this
 ```
 <?php
 
-use HCH\DemoBundle\ApiException\ApiException;
-use HCH\DemoBundle\ApiResponse\ApiResponse;
+use HCH\NormalizedRestApiBundle\ApiException\ApiException;
+use HCH\NormalizedRestApiBundle\ApiResponse\ApiResponse;
 
 public function getProductAction(Product $product) {
         
