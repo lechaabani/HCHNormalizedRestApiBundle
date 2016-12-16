@@ -4,6 +4,7 @@ HCHNormalizedRestApiBundle
 A bundle to normalize the return of Rest API
 
 ## Installation
+
 Run `composer require hch/normalizedrestapi-bundle=dev-master`
 
 Create erros_code.ini file: `php app/console app:create-error-code`
